@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en" class="font-inter">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Instagram Views</title>
+    <!-- Load Tailwind CSS --><script src="https://cdn.tailwindcss.com"></script>
+    <!-- Set default font family --><script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        inter: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        'primary-dark': '#2d3748', // A dark grey for main text on light card
+                        'accent-indigo': '#4f46e5',
+                    }
+                },
+            },
+        }
+    </script>
+    <style>
+        /* Ensures smooth transition for the circular timer */
+        #progress-circle {
+            transition: stroke-dashoffset 1s linear;
+        }
+        /* Gradient for Instagram logo SVG */
+        .instagram-gradient {
+            background: linear-gradient(45deg, #f9ce34, #ee2a7b, #6228d7);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            /* Fallback for browsers that don't support text-fill-color */
+            color: #ee2a7b; /* A central color from the gradient */
+        }
+        .instagram-logo-svg path {
+            fill: url(#insta-gradient-svg); /* Apply the SVG gradient to the paths */
+        }
+    </style>
+</head>
+<!-- Gradient Background --><body class="bg-gradient-to-br from-purple-600 to-indigo-600 min-h-screen flex items-center justify-center p-4">
+
+    <!-- Main Card Container --><div class="bg-white p-8 md:p-10 rounded-2xl shadow-xl w-full max-w-sm border border-gray-200">
+
+        <!-- Logo and Heading --><div class="text-center mb-8">
+            <!-- Instagram Logo (Styled with SVG gradient) --><svg class="w-12 h-12 mx-auto mb-3 instagram-logo-svg" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="insta-gradient-svg" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" style="stop-color:#f9ce34; stop-opacity:1" />
+                        <stop offset="50%" style="stop-color:#ee2a7b; stop-opacity:1" />
+                        <stop offset="100%" style="stop-color:#6228d7; stop-opacity:1" />
+                    </linearGradient>
+                </defs>
+                <path d="M16 4.00115C11.5817 4.00115 11.2317 4.01615 9.897 4.08115C8.56233 4.14715 7.472 4.37215 6.54567 4.72115C5.596 5.07915 4.78967 5.57815 3.983 6.38415C3.177 7.19015 2.678 7.99715 2.32 8.94615C1.971 9.87315 1.746 10.9631 1.68 12.2982C1.615 13.6322 1.6 13.9822 1.6 16.0012C1.6 18.0202 1.615 18.3702 1.68 19.7042C1.746 21.0392 1.971 22.1292 2.32 23.0562C2.678 24.0052 3.177 24.8122 3.983 25.6182C4.78967 26.4242 5.596 26.9232 6.54567 27.2812C7.472 27.6302 8.56233 27.8552 9.897 27.9212C11.2317 27.9862 11.5817 28.0012 16 28.0012C20.4183 28.0012 20.7683 27.9862 22.103 27.9212C23.4377 27.8552 24.528 27.6302 25.4543 27.2812C26.404 26.9232 27.2103 26.4242 28.017 25.6182C28.823 24.8122 29.322 24.0052 29.68 23.0562C30.029 22.1292 30.254 21.0392 30.32 19.7042C30.385 18.3702 30.4 18.0202 30.4 16.0012C30.4 13.9822 30.385 13.6322 30.32 12.2982C30.254 10.9631 30.029 9.87315 29.68 8.94615C29.322 7.99715 28.823 7.19015 28.017 6.38415C27.2103 5.57815 26.404 5.07915 25.4543 4.72115C24.528 4.37215 23.4377 4.14715 22.103 4.08115C20.7683 4.01615 20.4183 4.00115 16 4.00115Z" />
+                <path d="M16 10.0012C12.691 10.0012 10 12.6922 10 16.0012C10 19.3102 12.691 22.0012 16 22.0012C19.309 22.0012 22 19.3102 22 16.0012C22 12.6922 19.309 10.0012 16 10.0012ZM16 19.3512C14.162 19.3512 12.65 17.8392 12.65 16.0012C12.65 14.1632 14.162 12.6512 16 12.6512C17.838 12.6512 19.35 14.1632 19.35 16.0012C19.35 17.8392 17.838 19.3512 16 19.3512Z" />
+                <path d="M25.334 8.91115C25.334 9.69115 24.7 10.3252 23.919 10.3252C23.139 10.3252 22.504 9.69115 22.504 8.91115C22.504 8.13115 23.139 7.49715 23.919 7.49715C24.7 7.49715 25.334 8.13115 25.334 8.91115Z" />
+            </svg>
+            <h1 class="text-3xl font-extrabold text-primary-dark">Free Views</h1>
+            <p class="text-gray-600 text-sm mt-1">Boost your profile's visibility.</p>
+        </div>
+
+        <!-- Section 1: Inputs --><div id="input-section">
+            <form id="views-form" class="space-y-5">
+                <!-- Username Input --><div>
+                    <label for="username" class="block text-sm font-medium text-gray-700">
+                        Instagram Username
+                    </label>
+                    <div class="relative mt-1">
+                        <span class="absolute inset-y-0 left-0 flex items-center pl-3.5">
+                            <svg class="w-5 h-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A1.875 1.875 0 0118.375 22.5H5.625a1.875 1.875 0 01-1.125-2.382z" />
+                            </svg>
+                        </span>
+                        <input type="text" id="username" name="username" class="w-full pl-11 pr-4 py-3 bg-gray-50 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-accent-indigo focus:border-accent-indigo placeholder-gray-400" placeholder="@username" required>
+                    </div>
+                </div>
+
+                <!-- Views Selection --><div>
+                    <label for="views" class="block text-sm font-medium text-gray-700">
+                        Select Views Amount
+                    </label>
+                    <div class="relative mt-1">
+                        <span class="absolute inset-y-0 left-0 flex items-center pl-3.5">
+                            <svg class="w-5 h-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                            </svg>
+                        </span>
+                        <select id="views" name="views" class="w-full pl-11 pr-4 py-3 bg-gray-50 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-accent-indigo focus:border-accent-indigo appearance-none">
+                            <option value="100">100 Views</option>
+                            <option value="500">500 Views</option>
+                            <option value="1000">1,000 Views</option>
+                            <option value="2500">2,500 Views</option>
+                            <option value="5000">5,000 Views</option>
+                        </select>
+                        <span class="absolute inset-y-0 right-0 flex items-center pr-3.5 pointer-events-none">
+                            <svg class="w-5 h-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 15L12 18.75 15.75 15m-7.5-6L12 5.25 15.75 9" />
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Error Message (Hidden) --><p id="error-message" class="text-red-600 text-sm text-center !mt-4 hidden"></p>
+
+                <!-- Submit Button --><button type="submit" id="submit-btn" class="w-full bg-accent-indigo text-white font-semibold py-3 px-6 rounded-lg shadow-md flex items-center justify-center transform transition-all duration-200 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-accent-indigo disabled:opacity-50 disabled:hover:bg-accent-indigo">
+                    <!-- Spinner (hidden by default) --><svg id="submit-btn-spinner" class="animate-spin -ml-1 mr-3 h-5 w-5 text-white hidden" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                        <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                        <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                    </svg>
+                    <!-- Button Text --><span id="submit-btn-text">Start Views Generation</span>
+                </button>
+            </form>
+        </div>
+
+        <!-- Section 2: Timer (Hidden by default) --><div id="timer-section" class="hidden text-center flex-col items-center justify-center pt-4 pb-2">
+            <h2 class="text-xl font-semibold text-primary-dark mb-6">Securing Connection and Views</h2>
+            
+            <!-- Circular Progress Timer --><div class="relative w-40 h-40 mb-6">
+                <svg class="w-full h-full transform -rotate-90" viewBox="0 0 120 120">
+                    <!-- Background Circle --><circle cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8" />
+                    <!-- Progress Circle --><circle id="progress-circle" cx="60" cy="60" r="54" fill="none" stroke="#3730a3" stroke-width="8"
+                        stroke-linecap="round"
+                        stroke-dasharray="339.29" 
+                        stroke-dashoffset="0" /> 
+                </svg>
+                <!-- Timer Text (SECONDS ONLY) --><div class="absolute inset-0 flex flex-col items-center justify-center text-primary-dark">
+                     <div id="timer-display" class="text-6xl font-bold">
+                        200
+                    </div>
+                    <div class="text-sm font-medium text-gray-500 mt-1">seconds remaining</div>
+                </div>
+            </div>
+
+            <!-- Warning Message --><p class="text-sm font-medium text-red-600 px-2 animate-pulse">
+                DO NOT CLOSE THIS WINDOW. Process will terminate if interrupted.
+            </p>
+        </div>
+
+        <!-- Section 3: Success (Hidden by default) --><div id="success-section" class="hidden text-center flex-col items-center justify-center pt-4 pb-2">
+            <!-- Success Checkmark SVG --><svg class="w-16 h-16 mb-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52" width="70" height="70">
+                <circle cx="26" cy="26" r="25" fill="#10b981" />
+                <path fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" d="M14.1 27.2l7.1 7.2 16.7-16.8" />
+            </svg>
+            
+            <h2 class="text-3xl font-bold text-primary-dark mt-2 mb-2">Process Complete</h2>
+            <!-- Dynamic success message --><p id="success-message" class="text-gray-600 mb-8 text-md">
+                Your views are being sent!
+            </p>
+            <button id="reset-btn" class="w-full max-w-xs bg-gray-600 text-white font-semibold py-3 px-6 rounded-lg shadow-md transform transition-all duration-200 hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500">
+                Start New Request
+            </button>
+        </div>
+    </div>
+
+    <!-- JavaScript Logic --><script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Get all the sections
+            const inputSection = document.getElementById('input-section');
+            const timerSection = document.getElementById('timer-section');
+            const successSection = document.getElementById('success-section');
+            
+            // Get form elements
+            const viewsForm = document.getElementById('views-form');
+            const usernameInput = document.getElementById('username');
+            const viewsSelect = document.getElementById('views');
+            const errorMessage = document.getElementById('error-message');
+            
+            // Get button elements
+            const submitBtn = document.getElementById('submit-btn');
+            const submitBtnText = document.getElementById('submit-btn-text');
+            const submitBtnSpinner = document.getElementById('submit-btn-spinner');
+            
+            // Get timer elements
+            const timerDisplay = document.getElementById('timer-display');
+            const progressCircle = document.getElementById('progress-circle');
+            const circleCircumference = 2 * Math.PI * 54; // Calculated based on r=54
+            
+            // Get success elements
+            const successMessage = document.getElementById('success-message');
+            const resetBtn = document.getElementById('reset-btn');
+
+            let timerInterval;
+            const totalSeconds = 200; // 200 seconds total as requested
+            let countdown = totalSeconds;
+            
+            // Store user data
+            let savedUsername = '';
+            let selectedViews = '';
+
+            // Function to update the progress circle
+            function updateProgress() {
+                // Calculate how much of the task is remaining
+                const progress = (totalSeconds - countdown) / totalSeconds;
+                // Calculate the dash offset based on progress (0% progress = full circumference visible, 100% progress = 0 circumference visible)
+                const offset = circleCircumference * (1 - progress);
+                progressCircle.style.strokeDashoffset = offset;
+            }
+
+            // Function to start the timer
+            function startTimer() {
+                // 1. Switch to timer view
+                inputSection.classList.add('hidden');
+                timerSection.classList.remove('hidden');
+                timerSection.classList.add('flex'); // Use flex for centering content
+
+                // 2. Reset timer and display
+                countdown = totalSeconds;
+                timerDisplay.textContent = countdown; 
+                
+                // Initialize circle display (start at 0 offset, meaning 100% visible)
+                progressCircle.style.strokeDashoffset = circleCircumference;
+                // Need a slight delay before applying the first progress update to start the transition
+                setTimeout(updateProgress, 50);
+
+                // 3. Start the interval
+                timerInterval = setInterval(() => {
+                    countdown--; // Decrement the timer
+                    
+                    // Update display and progress bar
+                    timerDisplay.textContent = countdown; 
+                    updateProgress();
+
+                    // 4. When timer reaches 0
+                    if (countdown <= 0) {
+                        clearInterval(timerInterval); // Stop the timer
+                        showSuccess();
+                    }
+                }, 1000); // Run every 1 second
+            }
+
+            // Function to show the success message
+            function showSuccess() {
+                timerSection.classList.add('hidden');
+                timerSection.classList.remove('flex');
+                successSection.classList.remove('hidden');
+                successSection.classList.add('flex'); // Use flex for centering content
+                
+                // Show the dynamic message
+                successMessage.innerHTML = `Confirmation sent! Your request for <strong>${selectedViews} views</strong> to <strong>${savedUsername}</strong> is now being processed and should be delivered shortly.`;
+            }
+
+            // Function to reset the app to the start
+            function resetApp() {
+                successSection.classList.add('hidden');
+                successSection.classList.remove('flex');
+                timerSection.classList.add('hidden');
+                timerSection.classList.remove('flex');
+                inputSection.classList.remove('hidden');
+                
+                // Clear the form
+                usernameInput.value = '';
+                errorMessage.classList.add('hidden');
+            }
+
+            // Event Listener for the main "Get Free Views" button
+            viewsForm.addEventListener('submit', (event) => {
+                event.preventDefault(); // Stop the form from submitting normally
+                savedUsername = usernameInput.value.trim();
+                selectedViews = viewsSelect.options[viewsSelect.selectedIndex].text;
+
+                // Simple validation
+                if (savedUsername === '') {
+                    errorMessage.textContent = 'Please enter a valid Instagram username to proceed.';
+                    errorMessage.classList.remove('hidden');
+                } else {
+                    // Hide error
+                    errorMessage.classList.add('hidden');
+                    
+                    // Show loading state on button
+                    submitBtnText.textContent = 'Authenticating...';
+                    submitBtnSpinner.classList.remove('hidden');
+                    submitBtn.disabled = true;
+
+                    // Simulate server connection time (1.5 seconds)
+                    setTimeout(() => {
+                        // Reset button appearance before starting the long timer
+                        submitBtnText.textContent = 'Start Views Generation';
+                        submitBtnSpinner.classList.add('hidden');
+                        submitBtn.disabled = false;
+                        
+                        // Start the actual 200-second timer
+                        startTimer();
+                    }, 1500);
+                }
+            });
+
+            // Event Listener for the "Start New Request" button
+            resetBtn.addEventListener('click', resetApp);
+            
+            // Set initial dash array (circumference) for the circle
+            progressCircle.style.strokeDasharray = circleCircumference;
+            progressCircle.style.strokeDashoffset = circleCircumference; // Start fully hidden
+        });
+    </script>
+
+</body>
+</html>
+
